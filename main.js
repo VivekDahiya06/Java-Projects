@@ -1,5 +1,4 @@
 console.log("Main.js working")
-
 const populate = async(value,currency) => { 
     let myStr = "";
     url = "https://api.currencyapi.com/v3/latest?apikey=cur_live_0qNTU7sz9gvi1UAFsmkMPJ6xF5zMVYXANulrUvqo&base_currency="+currency;
@@ -16,7 +15,6 @@ const populate = async(value,currency) => {
     const table_body = document.querySelector("tbody");
     table_body.innerHTML = myStr;
 }
-
 const btn = document.querySelector(".btn");
 btn.addEventListener("click", (ae) => {
     ae.preventDefault();

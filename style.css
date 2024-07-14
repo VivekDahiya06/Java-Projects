@@ -55,12 +55,9 @@ nav li a:hover{
     text-align: center;
     margin: 15px;
 }
-
 .container form label[id="quantity"]{
     padding: 15px;
 }
-
-
 .container form input[type='number'],select[name='Country']{
     width: 25vb;
     border-radius:8px;
