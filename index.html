@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor - Convert your currency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">My Currency Converter</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form method="POST" action="api/login">
+            <h2 style=" margin: 15px; padding: 10px;">Choose your currency to convert</h2><br/>
+            <label id="country">Choose a currency :</label>
+            <select name="Country">
+                <option value="INR">Indian Rupee</option>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="JPY">Japanese Yen</option>
+                <option value="RMB">Renminbi</option>
+            </select>
+            <label id="quantity">Choose a quantity :</label>
+            <input type="number" name="quantity" min="1" max="10">
+            <br/>
+            <button class="btn" type="submit">Submit</button>
+          </form>
+          <div class="output">
+            <h3>Exchange values for different Currencies</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Currency Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            
+        </div>
+          
+    </div>
+    <footer>
+        Copyright &copy; All rights reserved
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
