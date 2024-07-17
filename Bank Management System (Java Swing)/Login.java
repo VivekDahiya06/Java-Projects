@@ -111,6 +111,4 @@ public class Login {
         frame.getContentPane().setBackground(Color.white);
         frame.setVisible(true);
     }
-    public static void main(String[] args) {
-        new Login();
-    }}
+    public static void main(String[] args) {new Login();}}
