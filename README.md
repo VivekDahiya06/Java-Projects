@@ -35,7 +35,6 @@ A classic arcade-style Brick Breaker game built with Java and Swing. The player 
 - Move Paddle Right: `→`
 
 ---
-
 ## Getting Started 🛠️
 
 ### Prerequisites:
